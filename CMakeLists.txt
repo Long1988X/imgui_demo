@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.1...3.28)
 
 project(example_glfw_opengl3)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
+
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 
