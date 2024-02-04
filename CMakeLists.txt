@@ -28,5 +28,5 @@ set(MY_SOURCE_FILES
 	${IMGUI_SOURCE}
     )
 
-add_executable(example_glfw_opengl3 main.cpp ${MY_HEADER_FILES} ${MY_SOURCE_FILES})
+add_executable(example_glfw_opengl3 ../app/demo.cpp ${MY_HEADER_FILES} ${MY_SOURCE_FILES})
 target_link_libraries(example_glfw_opengl3 ${OPENGL_LIBRARY} glfw ${CMAKE_DL_LIBS})
